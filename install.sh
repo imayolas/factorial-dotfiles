@@ -42,5 +42,3 @@ echo "packersync"
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 echo "packersync"
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync' # Yep, twice
-echo "tsupdatesync"
-nvim --headless -c 'TSUpdateSync'
