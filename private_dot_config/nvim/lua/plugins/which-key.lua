@@ -35,7 +35,7 @@ require("which-key").setup({
 })
 
 vim.keymap.set("n", "<Space>", "<NOP>", { silent = true })
-vim.g.mapleader = " "
+vim.g.mapleader = ","
 
 local opts = {
 	mode = "n", -- NORMAL mode
