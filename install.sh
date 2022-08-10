@@ -42,3 +42,7 @@ echo "packersync"
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 echo "packersync"
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync' # Yep, twice
+
+
+# Install git alias
+cat ~/.gitconfig ./private_dot_config/git/gitconfig.extend > ~/.gitconfig

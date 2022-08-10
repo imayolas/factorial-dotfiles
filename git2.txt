@@ -1,0 +1,32 @@
+[user]				    [alias]
+	name = Isaac Mayolas		    co = commit
+	email = imayolas@gmail.com	    ch = checkout
+[core]					    st = statussss
+	excludesfile = /Users/imay
+	pager = cat
+[alias]
+	co = commit
+	ch = checkout
+	st = status
+[push]
+	default = current
+[pull]
+	default = current
+	rebase = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Source
+	trustExitCode = true
+[init]
+	defaultBranch = main
+[pager]
+	branch = false
+[commit]
+	template = /Users/imayolas
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %
+	smudge = git-lfs smudge --
+	process = git-lfs filter-p
