@@ -47,3 +47,6 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync' # Yep, 
 # Install git alias
 cat ~/.gitconfig ./private_dot_config/git/gitconfig.extend > ~/.gitconfig
 git config --global push.default current
+git config --global alias.co commit
+git config --global alias.ch checkout
+git config --global alias.st status

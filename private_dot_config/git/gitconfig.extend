@@ -1,7 +1,0 @@
-[alias]
-	co = commit
-	ch = checkout
-	st = status
-
-[pull]
-  rebase = false
