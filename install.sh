@@ -49,3 +49,5 @@ git config --global push.default current
 git config --global alias.co commit
 git config --global alias.ch checkout
 git config --global alias.st status
+git config --global pull.rebase false
+git config --global push.autoSetupRemote true
